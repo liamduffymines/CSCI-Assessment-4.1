@@ -34,16 +34,16 @@ else:
         print(f"OUTPUT {INP1 or INP2}")
     
     elif Gate == "NAND":
-        print(not{INP1 and INP2})
+        print(f"OUTPUT {not (INP1 and INP2)}")
     
     elif Gate == "NOR":
-        print(f"OUTPUT (not{INP1 or INP2})")
+        print(f"OUTPUT  {not (INP1 or INP2)}")
     
     elif Gate == "XOR":
-        print(f"OUTPUT {(INP1 ^ INP2)}")
+        print(f"OUTPUT {INP1 ^ INP2}")
     
     elif Gate == "XNOR":
-         print(f"OUTPUT{not(INP1 ^ INP2)}")
+         print(f"OUTPUT {not (INP1 ^ INP2)}")
    
    
     
